@@ -174,7 +174,7 @@ def plot_performance(results):
     plt.show()
 
 if __name__ == '__main__':
-    initial_puzzle_state = (7, 2, 4, 5, 0, 6, 8, 3, 1) 
+    initial_puzzle_state = (1,2,3,4,0,6,7,5,8)
     
     puzzle = EightPuzzle(initial_puzzle_state)
     results = {}
